@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF7E15F72B378CD5002DD42C /* TGWorkoutSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E15F62B378CD5002DD42C /* TGWorkoutSwiftUIApp.swift */; };
+		DF7E15F92B378CD5002DD42C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E15F82B378CD5002DD42C /* ContentView.swift */; };
+		DF7E15FB2B378CD7002DD42C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7E15FA2B378CD7002DD42C /* Assets.xcassets */; };
+		DF7E15FE2B378CD7002DD42C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7E15FD2B378CD7002DD42C /* Preview Assets.xcassets */; };
+		DF7E16082B378CD7002DD42C /* TGWorkoutSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E16072B378CD7002DD42C /* TGWorkoutSwiftUITests.swift */; };
+		DF7E16122B378CD7002DD42C /* TGWorkoutSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E16112B378CD7002DD42C /* TGWorkoutSwiftUIUITests.swift */; };
+		DF7E16142B378CD7002DD42C /* TGWorkoutSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E16132B378CD7002DD42C /* TGWorkoutSwiftUIUITestsLaunchTests.swift */; };
+		DF7E16222B37944D002DD42C /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E16212B37944D002DD42C /* Exercise.swift */; };
+		DF7E16242B379536002DD42C /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E16232B379536002DD42C /* Workout.swift */; };
+		DF7E16272B37982A002DD42C /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E16262B37982A002DD42C /* WorkoutListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF7E16042B378CD7002DD42C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF7E15EB2B378CD5002DD42C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF7E15F22B378CD5002DD42C;
+			remoteInfo = TGWorkoutSwiftUI;
+		};
+		DF7E160E2B378CD7002DD42C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF7E15EB2B378CD5002DD42C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF7E15F22B378CD5002DD42C;
+			remoteInfo = TGWorkoutSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF7E15F32B378CD5002DD42C /* TGWorkoutSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGWorkoutSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7E15F62B378CD5002DD42C /* TGWorkoutSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGWorkoutSwiftUIApp.swift; sourceTree = "<group>"; };
+		DF7E15F82B378CD5002DD42C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF7E15FA2B378CD7002DD42C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF7E15FD2B378CD7002DD42C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF7E16032B378CD7002DD42C /* TGWorkoutSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGWorkoutSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7E16072B378CD7002DD42C /* TGWorkoutSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGWorkoutSwiftUITests.swift; sourceTree = "<group>"; };
+		DF7E160D2B378CD7002DD42C /* TGWorkoutSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGWorkoutSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7E16112B378CD7002DD42C /* TGWorkoutSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGWorkoutSwiftUIUITests.swift; sourceTree = "<group>"; };
+		DF7E16132B378CD7002DD42C /* TGWorkoutSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGWorkoutSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF7E16212B37944D002DD42C /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		DF7E16232B379536002DD42C /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		DF7E16262B37982A002DD42C /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF7E15F02B378CD5002DD42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7E16002B378CD7002DD42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7E160A2B378CD7002DD42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF7E15EA2B378CD5002DD42C = {
+			isa = PBXGroup;
+			children = (
+				DF7E15F52B378CD5002DD42C /* TGWorkoutSwiftUI */,
+				DF7E16062B378CD7002DD42C /* TGWorkoutSwiftUITests */,
+				DF7E16102B378CD7002DD42C /* TGWorkoutSwiftUIUITests */,
+				DF7E15F42B378CD5002DD42C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF7E15F42B378CD5002DD42C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF7E15F32B378CD5002DD42C /* TGWorkoutSwiftUI.app */,
+				DF7E16032B378CD7002DD42C /* TGWorkoutSwiftUITests.xctest */,
+				DF7E160D2B378CD7002DD42C /* TGWorkoutSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF7E15F52B378CD5002DD42C /* TGWorkoutSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				DF7E16252B379800002DD42C /* WorkoutList */,
+				DF7E16202B379237002DD42C /* Model */,
+				DF7E15F62B378CD5002DD42C /* TGWorkoutSwiftUIApp.swift */,
+				DF7E15F82B378CD5002DD42C /* ContentView.swift */,
+				DF7E15FA2B378CD7002DD42C /* Assets.xcassets */,
+				DF7E15FC2B378CD7002DD42C /* Preview Content */,
+			);
+			path = TGWorkoutSwiftUI;
+			sourceTree = "<group>";
+		};
+		DF7E15FC2B378CD7002DD42C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF7E15FD2B378CD7002DD42C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF7E16062B378CD7002DD42C /* TGWorkoutSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF7E16072B378CD7002DD42C /* TGWorkoutSwiftUITests.swift */,
+			);
+			path = TGWorkoutSwiftUITests;
+			sourceTree = "<group>";
+		};
+		DF7E16102B378CD7002DD42C /* TGWorkoutSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF7E16112B378CD7002DD42C /* TGWorkoutSwiftUIUITests.swift */,
+				DF7E16132B378CD7002DD42C /* TGWorkoutSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = TGWorkoutSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		DF7E16202B379237002DD42C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF7E16212B37944D002DD42C /* Exercise.swift */,
+				DF7E16232B379536002DD42C /* Workout.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF7E16252B379800002DD42C /* WorkoutList */ = {
+			isa = PBXGroup;
+			children = (
+				DF7E16262B37982A002DD42C /* WorkoutListView.swift */,
+			);
+			path = WorkoutList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF7E15F22B378CD5002DD42C /* TGWorkoutSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7E16172B378CD7002DD42C /* Build configuration list for PBXNativeTarget "TGWorkoutSwiftUI" */;
+			buildPhases = (
+				DF7E15EF2B378CD5002DD42C /* Sources */,
+				DF7E15F02B378CD5002DD42C /* Frameworks */,
+				DF7E15F12B378CD5002DD42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGWorkoutSwiftUI;
+			productName = TGWorkoutSwiftUI;
+			productReference = DF7E15F32B378CD5002DD42C /* TGWorkoutSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF7E16022B378CD7002DD42C /* TGWorkoutSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7E161A2B378CD7002DD42C /* Build configuration list for PBXNativeTarget "TGWorkoutSwiftUITests" */;
+			buildPhases = (
+				DF7E15FF2B378CD7002DD42C /* Sources */,
+				DF7E16002B378CD7002DD42C /* Frameworks */,
+				DF7E16012B378CD7002DD42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF7E16052B378CD7002DD42C /* PBXTargetDependency */,
+			);
+			name = TGWorkoutSwiftUITests;
+			productName = TGWorkoutSwiftUITests;
+			productReference = DF7E16032B378CD7002DD42C /* TGWorkoutSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF7E160C2B378CD7002DD42C /* TGWorkoutSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7E161D2B378CD7002DD42C /* Build configuration list for PBXNativeTarget "TGWorkoutSwiftUIUITests" */;
+			buildPhases = (
+				DF7E16092B378CD7002DD42C /* Sources */,
+				DF7E160A2B378CD7002DD42C /* Frameworks */,
+				DF7E160B2B378CD7002DD42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF7E160F2B378CD7002DD42C /* PBXTargetDependency */,
+			);
+			name = TGWorkoutSwiftUIUITests;
+			productName = TGWorkoutSwiftUIUITests;
+			productReference = DF7E160D2B378CD7002DD42C /* TGWorkoutSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF7E15EB2B378CD5002DD42C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					DF7E15F22B378CD5002DD42C = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					DF7E16022B378CD7002DD42C = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = DF7E15F22B378CD5002DD42C;
+					};
+					DF7E160C2B378CD7002DD42C = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = DF7E15F22B378CD5002DD42C;
+					};
+				};
+			};
+			buildConfigurationList = DF7E15EE2B378CD5002DD42C /* Build configuration list for PBXProject "TGWorkoutSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF7E15EA2B378CD5002DD42C;
+			productRefGroup = DF7E15F42B378CD5002DD42C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF7E15F22B378CD5002DD42C /* TGWorkoutSwiftUI */,
+				DF7E16022B378CD7002DD42C /* TGWorkoutSwiftUITests */,
+				DF7E160C2B378CD7002DD42C /* TGWorkoutSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF7E15F12B378CD5002DD42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7E15FE2B378CD7002DD42C /* Preview Assets.xcassets in Resources */,
+				DF7E15FB2B378CD7002DD42C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7E16012B378CD7002DD42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7E160B2B378CD7002DD42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF7E15EF2B378CD5002DD42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7E15F92B378CD5002DD42C /* ContentView.swift in Sources */,
+				DF7E15F72B378CD5002DD42C /* TGWorkoutSwiftUIApp.swift in Sources */,
+				DF7E16272B37982A002DD42C /* WorkoutListView.swift in Sources */,
+				DF7E16222B37944D002DD42C /* Exercise.swift in Sources */,
+				DF7E16242B379536002DD42C /* Workout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7E15FF2B378CD7002DD42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7E16082B378CD7002DD42C /* TGWorkoutSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7E16092B378CD7002DD42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7E16122B378CD7002DD42C /* TGWorkoutSwiftUIUITests.swift in Sources */,
+				DF7E16142B378CD7002DD42C /* TGWorkoutSwiftUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF7E16052B378CD7002DD42C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF7E15F22B378CD5002DD42C /* TGWorkoutSwiftUI */;
+			targetProxy = DF7E16042B378CD7002DD42C /* PBXContainerItemProxy */;
+		};
+		DF7E160F2B378CD7002DD42C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF7E15F22B378CD5002DD42C /* TGWorkoutSwiftUI */;
+			targetProxy = DF7E160E2B378CD7002DD42C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF7E16152B378CD7002DD42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF7E16162B378CD7002DD42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF7E16182B378CD7002DD42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TGWorkoutSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = YC67L6K2D6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terrancegriffith.TGWorkoutSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF7E16192B378CD7002DD42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TGWorkoutSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = YC67L6K2D6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terrancegriffith.TGWorkoutSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF7E161B2B378CD7002DD42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YC67L6K2D6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terrancegriffith.TGWorkoutSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGWorkoutSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TGWorkoutSwiftUI";
+			};
+			name = Debug;
+		};
+		DF7E161C2B378CD7002DD42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YC67L6K2D6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terrancegriffith.TGWorkoutSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGWorkoutSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TGWorkoutSwiftUI";
+			};
+			name = Release;
+		};
+		DF7E161E2B378CD7002DD42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YC67L6K2D6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terrancegriffith.TGWorkoutSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TGWorkoutSwiftUI;
+			};
+			name = Debug;
+		};
+		DF7E161F2B378CD7002DD42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YC67L6K2D6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terrancegriffith.TGWorkoutSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TGWorkoutSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF7E15EE2B378CD5002DD42C /* Build configuration list for PBXProject "TGWorkoutSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7E16152B378CD7002DD42C /* Debug */,
+				DF7E16162B378CD7002DD42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7E16172B378CD7002DD42C /* Build configuration list for PBXNativeTarget "TGWorkoutSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7E16182B378CD7002DD42C /* Debug */,
+				DF7E16192B378CD7002DD42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7E161A2B378CD7002DD42C /* Build configuration list for PBXNativeTarget "TGWorkoutSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7E161B2B378CD7002DD42C /* Debug */,
+				DF7E161C2B378CD7002DD42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7E161D2B378CD7002DD42C /* Build configuration list for PBXNativeTarget "TGWorkoutSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7E161E2B378CD7002DD42C /* Debug */,
+				DF7E161F2B378CD7002DD42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF7E15EB2B378CD5002DD42C /* Project object */;
+}
