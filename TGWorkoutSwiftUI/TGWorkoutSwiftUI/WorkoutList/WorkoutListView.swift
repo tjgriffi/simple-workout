@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct WorkoutListView: View {
+    
+    var workoutListVM: WorkoutListVM
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        // Stack to control navigation to the create workout screen
+        NavigationStack {
+            VStack {
+                NavigationLink("Add Workout") {
+                    AddWorkoutView()
+                }
+            }
+        }
     }
 }
 
 #Preview {
-    WorkoutListView()
+    let workoutListVM = WorkoutListVM()
+    return WorkoutListView(workoutListVM: workoutListVM)
 }

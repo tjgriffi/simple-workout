@@ -17,6 +17,9 @@
 		DF7E16222B37944D002DD42C /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E16212B37944D002DD42C /* Exercise.swift */; };
 		DF7E16242B379536002DD42C /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E16232B379536002DD42C /* Workout.swift */; };
 		DF7E16272B37982A002DD42C /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E16262B37982A002DD42C /* WorkoutListView.swift */; };
+		DF7E16292B37A540002DD42C /* WorkoutListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E16282B37A540002DD42C /* WorkoutListVM.swift */; };
+		DF857DA02B37B217005C1738 /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF857D9F2B37B217005C1738 /* AddWorkoutView.swift */; };
+		DF857DA22B37B231005C1738 /* AddWorkoutVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF857DA12B37B231005C1738 /* AddWorkoutVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		DF7E16212B37944D002DD42C /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		DF7E16232B379536002DD42C /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		DF7E16262B37982A002DD42C /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
+		DF7E16282B37A540002DD42C /* WorkoutListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListVM.swift; sourceTree = "<group>"; };
+		DF857D9F2B37B217005C1738 /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
+		DF857DA12B37B231005C1738 /* AddWorkoutVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,7 @@
 		DF7E15F52B378CD5002DD42C /* TGWorkoutSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				DF857D9C2B37A6D7005C1738 /* AddWorkout */,
 				DF7E16252B379800002DD42C /* WorkoutList */,
 				DF7E16202B379237002DD42C /* Model */,
 				DF7E15F62B378CD5002DD42C /* TGWorkoutSwiftUIApp.swift */,
@@ -148,8 +155,18 @@
 			isa = PBXGroup;
 			children = (
 				DF7E16262B37982A002DD42C /* WorkoutListView.swift */,
+				DF7E16282B37A540002DD42C /* WorkoutListVM.swift */,
 			);
 			path = WorkoutList;
+			sourceTree = "<group>";
+		};
+		DF857D9C2B37A6D7005C1738 /* AddWorkout */ = {
+			isa = PBXGroup;
+			children = (
+				DF857D9F2B37B217005C1738 /* AddWorkoutView.swift */,
+				DF857DA12B37B231005C1738 /* AddWorkoutVM.swift */,
+			);
+			path = AddWorkout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,8 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF857DA02B37B217005C1738 /* AddWorkoutView.swift in Sources */,
 				DF7E15F92B378CD5002DD42C /* ContentView.swift in Sources */,
 				DF7E15F72B378CD5002DD42C /* TGWorkoutSwiftUIApp.swift in Sources */,
+				DF7E16292B37A540002DD42C /* WorkoutListVM.swift in Sources */,
+				DF857DA22B37B231005C1738 /* AddWorkoutVM.swift in Sources */,
 				DF7E16272B37982A002DD42C /* WorkoutListView.swift in Sources */,
 				DF7E16222B37944D002DD42C /* Exercise.swift in Sources */,
 				DF7E16242B379536002DD42C /* Workout.swift in Sources */,
